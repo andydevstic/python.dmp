@@ -1,0 +1,12 @@
+Click==7.0
+Flask==1.1.1
+Flask-DotEnv==0.1.2
+itsdangerous==1.1.0
+Jinja2==3.0.0a1
+MarkupSafe==1.1.1
+pkg-resources==0.0.0
+psycopg2==2.8.4
+python-dotenv==0.11.0
+python.dmp.advalue==1.0.0
+uWSGI==2.0.18
+Werkzeug==1.0.0
