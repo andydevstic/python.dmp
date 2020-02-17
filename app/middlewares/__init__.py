@@ -1,0 +1,2 @@
+from middlewares.common import register_db_connection
+from middlewares.common import register_logger
