@@ -1,2 +1,2 @@
-from blueprints.auth_blueprint import AuthBlueprint
-from blueprints.api_blueprint import ApiBlueprint
+from app.blueprints.auth_blueprint import AuthBlueprint
+from app.blueprints.api_blueprint import ApiBlueprint

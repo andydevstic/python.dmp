@@ -1,10 +1,11 @@
 import os
 import click
 from flask import Flask, g, request
-from core.db import PgAdapter
-from middlewares import register_db_connection, register_logger
 from flask_dotenv import DotEnv
-from blueprints import AuthBlueprint, ApiBlueprint
+
+from app.core.db import PgAdapter
+from app.middlewares import register_db_connection, register_logger
+from app.blueprints import AuthBlueprint, ApiBlueprint
 
 class Server:
   def __init__(self):
